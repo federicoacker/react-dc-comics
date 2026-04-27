@@ -5,7 +5,7 @@ function Footer(){
     return(
         <>
         <FooterNavbar/>
-        <FooterBody/>
+        <FooterBody className="footer-body"/>
         <FooterSocials/>
         </>
     )
