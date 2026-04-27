@@ -5,10 +5,23 @@ import FooterList from './FooterList';
 import FooterLogo from './FooterLogo';
 
 const arraysOfLists = [
-    ['DC COMICS', 'Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News'],
-    ['SHOP', 'Shop DC', 'Shop DC Collectibles'],
-    ['DC', 'Terms Of Use', 'Privacy policy(New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us'],
-    ['SITES', 'DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa']
+
+    {
+        name:'DC COMICS',
+        array:['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News']
+    },
+    {
+        name:'SHOP',
+        array:['Shop DC', 'Shop DC Collectibles']
+    },
+    {
+        name:'DC',
+        array:['Terms Of Use', 'Privacy policy(New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us']
+    },
+    {
+        name:'SITES',
+        array:['SITES', 'DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa']
+    }
 ];
 function FooterBody(){
     return(
@@ -16,14 +29,14 @@ function FooterBody(){
         <Container>
             <Row>
                 <Col xs={6} lg={2}>
-                <FooterList listArray={arraysOfLists[0]}/>
-                <FooterList listArray={arraysOfLists[1]}/>
+                <FooterList name={arraysOfLists[0].name} listArray={arraysOfLists[0].array}/>
+                <FooterList  name={arraysOfLists[1].name} listArray={arraysOfLists[1].array}/>
                 </Col>
                 <Col xs={6} lg={2}>
-                <FooterList listArray={arraysOfLists[2]}/>
+                <FooterList  name={arraysOfLists[2].name} listArray={arraysOfLists[2].array}/>
                 </Col>
                 <Col xs={6} lg={2}>
-                <FooterList listArray={arraysOfLists[3]}/>
+                <FooterList  name={arraysOfLists[3].name} listArray={arraysOfLists[3].array}/>
                 </Col>
                 <Col xs={6} lg={6}>
                 <FooterLogo/>

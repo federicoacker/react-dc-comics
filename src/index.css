@@ -32,6 +32,7 @@
 }
 
 .footer-navbar{
+  --bs-navbar-padding-y:30px !important;
   min-height:10vh;
   position:relative;
 }
@@ -48,8 +49,12 @@
 }
 
 .footer-navbar-img-fluid{
-  max-height:35%;
-  max-width:35%;
+  width:35%;
+  max-width:50px;
+}
+
+.footer-list{
+  list-style-type:none;
 }
 
 /* Utilities */
