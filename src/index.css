@@ -31,6 +31,28 @@
   z-index:-1;
 }
 
+.footer-navbar{
+  min-height:15vh;
+  position:relative;
+}
+.footer-navbar::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50%;
+  height: 100%;
+  width: 100vw;
+  background: #0282F9;
+  z-index:-1;
+}
+
+.footer-navbar-img-fluid{
+  width:100%;
+  max-width:50px;
+  height:100%;
+}
+
 /* Utilities */
 .text-white{
   color:white;
