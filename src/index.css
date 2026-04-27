@@ -1,0 +1,20 @@
+.main-container{
+  padding:40px;
+  position:relative;
+}
+.main-container::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50%;
+  height: 100%;
+  width: 100vw;
+  background: #1C1C1C;
+  z-index:-1;
+}
+
+/* Utilities */
+.text-white{
+  color:white;
+}
