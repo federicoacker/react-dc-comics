@@ -26,8 +26,8 @@ const arraysOfLists = [
 function FooterBody(){
     return(
         <>
-        <Container>
-            <Row>
+        <Container className="footer-body">
+            <Row className="py-5">
                 <Col xs={6} lg={2}>
                 <FooterList name={arraysOfLists[0].name} listArray={arraysOfLists[0].array}/>
                 <FooterList  name={arraysOfLists[1].name} listArray={arraysOfLists[1].array}/>
