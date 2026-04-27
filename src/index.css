@@ -2,7 +2,13 @@
   margin-top:0 !important;
   margin-bottom:0 !important;
 }
+body{
+  font-family: "Open Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style:normal;
+}
 .dc-navbar{
+
   position:relative;
   min-height: 130px;
 }
@@ -32,7 +38,7 @@
   translate:50%; 
 }
 .main-container{
-  padding: 50px;
+  padding: 50px 0;
   position:relative;
 }
 .main-container::before{
@@ -61,6 +67,15 @@
   width: 100vw;
   background: #0282F9;
   z-index:-1;
+}
+.footer-navbar-links{
+  text-decoration:none;
+}
+.footer-navbar-links figcaption{
+  color:white;
+}
+.footer-navbar-links figcaption:hover{
+  color:#1C1C1C;
 }
 
 .footer-navbar-img-fluid{
