@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FooterList from './FooterList';
-import FooterLogo from './FooterLogo';
 
 const arraysOfLists = [
 
@@ -37,9 +36,6 @@ function FooterBody(){
                 </Col>
                 <Col xs={6} lg={2}>
                 <FooterList  name={arraysOfLists[3].name} listArray={arraysOfLists[3].array}/>
-                </Col>
-                <Col xs={6} lg={6}>
-                <FooterLogo/>
                 </Col>
             </Row>
         </Container>
