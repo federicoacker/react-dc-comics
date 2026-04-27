@@ -32,7 +32,7 @@
 }
 
 .footer-navbar{
-  min-height:15vh;
+  min-height:10vh;
   position:relative;
 }
 .footer-navbar::before{
@@ -48,9 +48,8 @@
 }
 
 .footer-navbar-img-fluid{
-  width:100%;
-  max-width:50px;
-  height:100%;
+  max-height:35%;
+  max-width:35%;
 }
 
 /* Utilities */
