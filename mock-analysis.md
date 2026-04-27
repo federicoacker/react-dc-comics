@@ -1,0 +1,16 @@
+- Header
+    - Logo
+    - Navbar
+        - Navlink x 10
+- Main
+    - Future content
+- Footer
+    - FooterNavbar 
+        - 5 FooterNavlinks
+    - FooterBody
+        - 4 x NavLists
+            - various NavLinks
+    - FooterSocials
+        - Sign-up Button
+        - FollowUsList
+            - Social icon
