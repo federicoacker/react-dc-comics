@@ -14,7 +14,7 @@ function DCNavbar(){
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="dc-navbar-nav"/>
                 <Navbar.Collapse id="dc-navbar-nav" className="justify-content-end">
-                    <Nav className="dc-navbar-links">
+                    <Nav className="dc-navbar-links align-items-center">
                         <Nav.Link href="" className="dc-navbar-link">Characters</Nav.Link>
                         <Nav.Link href="" className="dc-navbar-link">Comics</Nav.Link>
                         <Nav.Link href="" className="dc-navbar-link">Movies</Nav.Link>
