@@ -1,10 +1,9 @@
-import Logo from './Logo.jsx'
-import Navbar from './Navbar.jsx'
+
+import DCNavbar from './DCNavbar'
 function Header(){
     return (
         <>
-            <Logo/>
-            <Navbar/>
+            <DCNavbar/>
         </>
     );
 }
