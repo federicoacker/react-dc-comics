@@ -1,5 +1,22 @@
+.dc-navbar{
+  min-height:15vh;
+  position:relative;
+}
+.dc-navbar::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  translate: -50%;
+  height: 100%;
+  width: 100vw;
+  background: white;
+  z-index:-1;
+}
+
 .main-container{
   padding:40px;
+  min-height: 20vh;
   position:relative;
 }
 .main-container::before{
