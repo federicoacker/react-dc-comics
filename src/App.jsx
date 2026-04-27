@@ -8,14 +8,14 @@ import Footer from './components/Footer.jsx';
 function App() {
   return (
     <>
-    <Container fluid="lg">
+    <Container fluid="lg" className='d-flex flex-column min-vh-100 justify-content-between'>
       <Row>
         <Col>
           <Header/>
         </Col>
       </Row>
-      <Row>
-        <Col>
+      <Row className="flex-grow-1 main-container">
+        <Col >
           <Main/>
         </Col>
       </Row>

@@ -27,12 +27,12 @@
   width:75%;
   background-color:#0282F9;
   position:absolute;
-  top:200%;
+  bottom:0;
   right:50%;
   translate:50%; 
 }
 .main-container{
-  padding: 53.2px;
+  padding: 50px;
   position:relative;
 }
 .main-container::before{
