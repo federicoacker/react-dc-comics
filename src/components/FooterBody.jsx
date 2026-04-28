@@ -8,6 +8,7 @@ import { arraysOfLists } from '../utility/linkData.js'
 function FooterBody(){
     return(
         <>
+        <div className="footer-body-wrapper">
         <Container className="footer-body">
             <Row className="py-5">
                 <Col xs={6} lg={2}>
@@ -22,6 +23,7 @@ function FooterBody(){
                 </Col>
             </Row>
         </Container>
+        </div>
         </>
     )
 }

@@ -1,11 +1,13 @@
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 
 function FooterSocials(){
     return(
         <>
         <div className="footer-socials">
+        <Container>
             <Row className="justify-content-between gap-3">
             <Col>
             <button type="button" className="text-white btn btn-outline-primary rounded-0">SIGN-UP NOW!</button>
@@ -19,6 +21,7 @@ function FooterSocials(){
             <a href=""><img src="/img/footer-periscope.png"/></a>
             </Col>
             </Row>
+        </Container>
         </div>
         </>
     )

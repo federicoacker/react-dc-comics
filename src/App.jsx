@@ -5,26 +5,36 @@ import Col from 'react-bootstrap/Col';
 import Main from './components/Main.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import Hero from './components/Hero.jsx';
 function App() {
   return (
     <>
-    <Container fluid="lg" className='d-flex flex-column min-vh-100 justify-content-between'>
+    <div className='container-fluid d-flex flex-column min-vh-100 justify-content-between'>
       <Row>
         <Col>
+        <Container fluid="lg">
           <Header/>
-        </Col>
-      </Row>
-      <Row className="flex-grow-1 main-container">
-        <Col >
-          <Main/>
+        </Container>
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className="g-0">
+          <Hero/>
+        </Col>
+      </Row>
+      <Row className="main-container">
+        <Col >
+        <Container fluid="lg">
+          <Main/>
+        </Container>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="g-0">
           <Footer/>
         </Col>
       </Row>
-    </Container>
+    </div>
     </>
   )
 }

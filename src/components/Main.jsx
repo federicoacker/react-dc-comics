@@ -1,11 +1,9 @@
-import Container from 'react-bootstrap/Container';
+
 
 function Main(){
     return(
         <>
-        <Container>
-            <h3 className= "text-white">---&gt; Content goes here &lt;---</h3>
-        </Container>
+        <h3 className= "text-white">---&gt; Content goes here &lt;---</h3>
         </>
     )
 }
