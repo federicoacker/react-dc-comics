@@ -31,6 +31,19 @@ body{
   right:50%;
   translate:50%; 
 }
+
+.hero-container{
+  overflow-x:clip;
+  max-height:45vh;
+  overflow-y:clip;
+  padding:0;
+}
+.hero-img{
+  display:block;
+  max-width:100vw;
+  object-fit:cover;
+}
+
 .main-container{
   padding-bottom:50px;
   position:relative;
@@ -38,8 +51,42 @@ body{
   padding-top:50px;
 }
 
+.comic-container::after{
+  content: 'CURRENT SERIES';
+  font-family:"Open Sans", sans-serif;
+  font-weight: bold;
+  position:absolute;
+  color:white;
+  top:0;
+  left: 10%;
+  translate:50% -50%;
+  padding:10px 20px;
+  background: #0282F9;
+}
+
+.comic-thumb{
+  padding-bottom:10px;
+}
+.comic-thumb img{
+  aspect-ratio:1;
+  width:100%;
+  object-fit:cover;
+  object-position:50% 0%;
+  cursor:pointer;
+  transition: box-shadow 0.3s ease;
+}
+.comic{
+  transition: scale 0.3s ease;
+}
+.comic:has(img:hover){
+  scale:1.05;
+}
+.comic:has(img:hover) .comic-thumb img{
+  box-shadow: 5px 5px  5px #0F70E4
+}
+
 .footer-navbar-wrapper{
-    background: #0282F9;
+  background: #0282F9;
 }
 .footer-navbar{
   --bs-navbar-padding-y:30px !important;
@@ -97,37 +144,6 @@ body{
   background: #303030;
 }
 
-.hero-container{
-  overflow-x:clip;
-  max-height:45vh;
-  overflow-y:clip;
-  padding:0;
-}
-.hero-img{
-  display:block;
-  max-width:100vw;
-  object-fit:cover;
-}
-.comic-thumb{
-  padding-bottom:10px;
-}
-.comic-thumb img{
-  aspect-ratio:1;
-  width:100%;
-  object-fit:cover;
-  object-position:50% 0%;
-  cursor:pointer;
-  transition: box-shadow 0.3s ease;
-}
-.comic{
-  transition: scale 0.3s ease;
-}
-.comic:has(img:hover){
-  scale:1.05;
-}
-.comic:has(img:hover) .comic-thumb img{
-  box-shadow: 5px 5px  5px #0F70E4
-}
 .follow-us{
   color:#0F70E4;
 }

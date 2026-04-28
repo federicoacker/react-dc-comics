@@ -24,7 +24,7 @@ function App() {
       </Row>
       <Row className="main-container">
         <Col >
-        <Container fluid="lg">
+        <Container fluid="lg" className="comic-container">
           <Main/>
         </Container>
         </Col>
