@@ -27,6 +27,10 @@ body{
   position:relative;
 }
 
+.logo-img{
+  min-width:100px;
+}
+
 .dc-navbar-link:hover::after{
   content:'';
   height:15%;

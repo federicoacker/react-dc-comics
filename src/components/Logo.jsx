@@ -2,7 +2,7 @@ function Logo(){
     return (
         <>
         <figure>
-            <img className = "img-fluid" src = "/img/dc-logo.png"/>
+            <img className = "img-fluid logo-img" src = "/img/dc-logo.png"/>
         </figure>
         </>
     )
