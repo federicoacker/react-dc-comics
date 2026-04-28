@@ -121,6 +121,8 @@ body{
 }
 .footer-body-wrapper{
   background-image:url(/img/footer-bg.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 .footer-body::after{
   content: '';
