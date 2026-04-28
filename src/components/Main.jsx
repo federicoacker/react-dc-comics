@@ -4,7 +4,7 @@ import ComicsList from "./ComicsList";
 function Main(){
     return(
         <>
-        <Row className="g-5 justify-content-center row-gap-5 comics-list">
+        <Row className="g-5 justify-content-center comics-list">
             <ComicsList/>
         </Row>
         <div className="pt-5">
