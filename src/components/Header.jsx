@@ -1,9 +1,9 @@
 
 import DCNavbar from './DCNavbar'
-function Header(){
+function Header({navbarLinks}){
     return (
         <header>
-            <DCNavbar/>
+            <DCNavbar navbarLinks={ navbarLinks }/>
         </header>
     );
 }

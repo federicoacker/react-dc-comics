@@ -2,10 +2,9 @@ import Logo from './Logo.jsx'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import { navbarLinks } from '../utility/linkData.js';
 
 
-function DCNavbar(){
+function DCNavbar({navbarLinks}){
     return(
         <>
         <Navbar expand="md" className="dc-navbar">
