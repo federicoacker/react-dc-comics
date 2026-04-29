@@ -16,8 +16,10 @@ function DCNavbar(){
                 <Navbar.Toggle aria-controls="dc-navbar-nav"/>
                 <Navbar.Collapse id="dc-navbar-nav" className="justify-content-end">
                     <Nav className="dc-navbar-links align-items-center">
-                        {navbarLinks.map((link, index) => 
-                        <Nav.Link href={ link.url } className="dc-navbar-link" key={ index } tabIndex={ navbarLinks.indexOf(link)}>{ link.name }</Nav.Link>)
+                        {
+                            navbarLinks.map(
+                                (link) => <Nav.Link href={ link.url } className="dc-navbar-link" key={ link.id } tabIndex={ link.id - 1 }>{ link.name }</Nav.Link>
+                            )
                         }
                     </Nav>
                 </Navbar.Collapse>

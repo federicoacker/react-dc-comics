@@ -3,46 +3,46 @@ const arraysOfLists = [
     {
         name:'DC COMICS',
         array:[
-            {name:'Characters', url:""}, 
-            {name:'Comics', url:""}, 
-            {name:'Movies', url:""}, 
-            {name:'TV', url:""}, 
-            {name:'Games', url:""}, 
-            {name:'Videos', url:""}, 
-            {name:'News', url:""}
+            {name:'Characters', url:"", id:1}, 
+            {name:'Comics', url:"", id:2}, 
+            {name:'Movies', url:"", id:3}, 
+            {name:'TV', url:"", id:4}, 
+            {name:'Games', url:"", id:5}, 
+            {name:'Videos', url:"", id:6}, 
+            {name:'News', url:"", id:7}
         ]
     },
     {
         name:'SHOP',
         array:[
-            {name:'Shop DC', url:""}, 
-            {name:'Shop DC Collectibles', url:""}
+            {name:'Shop DC', url:"", id:1}, 
+            {name:'Shop DC Collectibles', url:"", id:2}
         ]
     },
     {
         name:'DC',
         array:[
-            {name:'Terms Of Use', url:""}, 
-            {name:'Privacy policy(New)', url:""}, 
-            {name:'Ad Choices', url:""}, 
-            {name:'Advertising', url:""}, 
-            {name:'Jobs', url:""}, 
-            {name:'Subscriptions', url:""}, 
-            {name:'Talent Workshops', url:""}, 
-            {name:'CPSC Certificates', url:""}, 
-            {name:'Ratings', url:""}, 
-            {name:'Shop Help', url:""}, 
-            {name:'Contact Us',url:""}]
+            {name:'Terms Of Use', url:"", id:1}, 
+            {name:'Privacy policy(New)', url:"", id:2}, 
+            {name:'Ad Choices', url:"", id:3}, 
+            {name:'Advertising', url:"", id:4}, 
+            {name:'Jobs', url:"", id:5}, 
+            {name:'Subscriptions', url:"", id:6}, 
+            {name:'Talent Workshops', url:"", id:7}, 
+            {name:'CPSC Certificates', url:"", id:8}, 
+            {name:'Ratings', url:"", id:9}, 
+            {name:'Shop Help', url:"", id:10}, 
+            {name:'Contact Us',url:"", id:11}]
     },
     {
         name:'SITES',
         array:[{
-            name:'SITES', url:""}, 
-            {name:'DC', url:""}, 
-            {name:'MAD Magazine', url:""}, 
-            {name:'DC Kids', url:""}, 
-            {name:'DC Universe', url:""}, 
-            {name:'DC Power Visa', url:""}
+            name:'SITES', url:"", id:1}, 
+            {name:'DC', url:"", id:2}, 
+            {name:'MAD Magazine', url:"", id:3}, 
+            {name:'DC Kids', url:"", id:4}, 
+            {name:'DC Universe', url:"", id:5}, 
+            {name:'DC Power Visa', url:"", id:6}
         ]
     }
 ];
@@ -75,43 +75,53 @@ const links = [
 const navbarLinks = [
     {
         name: "Characters",
-        url: ""
+        url: "",
+        id:1
     },
     {
         name: "Comics",
-        url: ""
+        url: "",
+        id:2
     },
     {
         name: "Movies",
-        url: ""
+        url: "",
+        id:3
     },
     {
         name: "Tv",
-        url: ""
+        url: "",
+        id:4
     },
     {
         name: "Collecibles",
-        url: ""
+        url: "",
+        id:5
     },
     {
         name: "Comics",
-        url: ""
+        url: "",
+        id:6
     },
     {
         name: "Videos",
-        url: ""
+        url: "",
+        id:7
     },
     {
         name: "Fans",
-        url: ""
+        url: "",
+        id:8
     },
     {
         name: "News",
-        url: ""
+        url: "",
+        id:9
     },
     {
         name: "Shop",
-        url: ""
+        url: "",
+        id:10
     }
 ]
 export {
