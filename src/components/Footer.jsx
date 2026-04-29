@@ -4,9 +4,9 @@ import FooterSocials from './FooterSocials.jsx'
 function Footer(){
     return(
         <footer>
-        <FooterNavbar/>
-        <FooterBody/>
-        <FooterSocials/>
+            <FooterNavbar/>
+            <FooterBody/>
+            <FooterSocials/>
         </footer>
     )
 }
