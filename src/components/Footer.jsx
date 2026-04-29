@@ -3,11 +3,11 @@ import FooterBody from './FooterBody.jsx'
 import FooterSocials from './FooterSocials.jsx'
 function Footer(){
     return(
-        <>
+        <footer>
         <FooterNavbar/>
         <FooterBody/>
         <FooterSocials/>
-        </>
+        </footer>
     )
 }
 
