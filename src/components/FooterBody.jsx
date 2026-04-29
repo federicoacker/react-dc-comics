@@ -2,10 +2,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FooterList from './FooterList';
-import { arraysOfLists } from '../utility/linkData.js'
 
 
-function FooterBody(){
+
+function FooterBody({ arraysOfLists }){
     return(
         <div className="footer-body-wrapper">
             <Container className="footer-body">

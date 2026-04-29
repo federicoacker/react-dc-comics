@@ -14,7 +14,7 @@ function App() {
     <>
       <div className='container-fluid d-flex flex-column min-vh-100 justify-content-between'>
         <Row>
-          <Col>
+          <Col className="g-0">
             <Container fluid="lg">
               <Header navbarLinks={ navbarLinks }/>
             </Container>
@@ -34,7 +34,7 @@ function App() {
         </Row>
         <Row>
           <Col className="g-0">
-            <Footer links={ links, arraysOfLists }/>
+            <Footer links={ links} arraysOfLists={arraysOfLists }/>
           </Col>
         </Row>
       </div>

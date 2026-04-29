@@ -5,7 +5,7 @@ body {
 }
 .dc-navbar {
   position: relative;
-  flex-basis: 145px;
+  min-height: 145px;
 }
 
 .dc-navbar-links .dc-navbar-link {
@@ -146,12 +146,6 @@ body {
   font-size: 0.9rem;
 }
 @media screen and (min-width: 768px) {
-  .dc-navbar-links .dc-navbar-link {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
   .dc-navbar-link:hover::after {
     content: "";
     height: 15%;
@@ -162,6 +156,13 @@ body {
     right: 50%;
     translate: 50% 100%;
   }
+  .dc-navbar-links .dc-navbar-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  
   .dc-navbar-links .dc-navbar-link:hover {
     color: var(--bs-nav-link-hover-color);
   }
