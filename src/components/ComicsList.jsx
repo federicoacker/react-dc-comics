@@ -1,20 +1,10 @@
-import comics from '../utility/comics.js';
-import Col from 'react-bootstrap/Col';
 
-function ComicsList(){
+import Comic from './Comic.jsx'
+
+function ComicsList({ comics }){
     return (
     <>
-    {comics.map(comic =>{
-        return ( 
-        <Col xs={12} sm = {12} md = {4} lg ={2} className="comic" key={ comic.id }>
-            <figure className="comic-thumb text-white" >
-                <img src = { comic.thumb } className="img-fluid" alt={ comic.title }></img>
-            </figure>
-            <h5 className="text-white">{ comic.series} </h5>
-        </Col>
-        
-        );
-    })}
+    {comics.map(comic => <Comic comic={comic}></Comic>)}
     </>
     );
 }

@@ -1,12 +1,11 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { links } from '../utility/linkData.js'
 import FooterNavlink from './FooterNavlink';
 import Container from 'react-bootstrap/Container';
 
 
 
-function FooterNavbar(){
+function FooterNavbar({ links }){
     return(
         <div className="footer-navbar-wrapper">
             <Container className="footer-navbar-container">
